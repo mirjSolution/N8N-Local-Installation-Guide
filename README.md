@@ -24,7 +24,7 @@ This step involves setting up the necessary tools to prepare your system for the
 
 - **Docker Desktop:** Install Docker Desktop for your operating system (Mac or Windows) and sign in or create an account.
 
-```bash
+```
 https://docs.docker.com/
 ```
 
@@ -37,6 +37,27 @@ https://docs.docker.com/
 ![Docker](Images/docker-7.png)
 
 - **Cloudflared:** Install `cloudflared`, a command-line tool that enables a secure connection between Cloudflare and your local machine.
+
+  -Documentation
+
+  ```
+  https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/
+  ```
+
+  ![CFlare CLI](Images/cflare-cli-1.png)
+
+  - I will use brew to install the Cloud Flare CLI
+
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+    ![Brew Install](Images/brew-install-1.png)
+
+  - Cloudflare CLI installation using brew
+
+    ![CFlare CLI](Images/cflare-cli-1.png)
+
 - **Cribops CLI:** Download and install the Cribops CLI installer from the official documentation. This tool simplifies the entire N8N setup process.
 
 ### Step 3: Install N8N
