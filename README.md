@@ -38,25 +38,25 @@ https://docs.docker.com/
 
 - **Cloudflared:** Install `cloudflared`, a command-line tool that enables a secure connection between Cloudflare and your local machine.
 
-  -Documentation
+-Documentation
 
+```
+https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/
+```
+
+![CFlare CLI](Images/cflare-cli-1.png)
+
+- I will use brew to install the Cloud Flare CLI
+
+  ```bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
-  https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/
-  ```
 
-  ![CFlare CLI](Images/cflare-cli-1.png)
+![Brew Install](Images/brew-install-1.png)
 
-  - I will use brew to install the Cloud Flare CLI
+- Cloudflare CLI installation using brew
 
-    ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-
-    ![Brew Install](Images/brew-install-1.png)
-
-  - Cloudflare CLI installation using brew
-
-    ![CFlare CLI](Images/cflare-cli-1.png)
+![CFlare CLI](Images/cflare-cli-1.png)
 
 - **Cribops CLI:** Download and install the Cribops CLI installer from the official documentation. This tool simplifies the entire N8N setup process.
 
