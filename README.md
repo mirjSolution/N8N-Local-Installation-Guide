@@ -56,7 +56,7 @@ https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do
 
 - Cloudflare CLI installation using brew
 
-![CFlare CLI](Images/cflare-cli-1.png)
+![CFlare CLI](Images/cflare-cli-2.png)
 
 - **Cribops CLI:** Download and install the Cribops CLI installer from the official documentation. This tool simplifies the entire N8N setup process.
 
