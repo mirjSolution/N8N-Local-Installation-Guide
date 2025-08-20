@@ -60,6 +60,13 @@ https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do
 
 - **Cribops CLI:** Download and install the Cribops CLI installer from the official documentation. This tool simplifies the entire N8N setup process.
 
+![Cribops CLI](Images/cribops-1.png)
+
+- Installation
+
+![Cribops CLI](Images/cribops-2.png)
+![Cribops CLI](Images/cribops-3.png)
+
 ### Step 3: Install N8N
 
 This is the final step, where you use a few simple commands to get N8N up and running.
