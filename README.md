@@ -23,6 +23,19 @@ This guide provides a straightforward, three-step process for installing a local
 This step involves setting up the necessary tools to prepare your system for the N8N installation.
 
 - **Docker Desktop:** Install Docker Desktop for your operating system (Mac or Windows) and sign in or create an account.
+
+```bash
+https://docs.docker.com/
+```
+
+![Docker](Images/docker-1.png)
+![Docker](Images/docker-2.png)
+![Docker](Images/docker-3.png)
+![Docker](Images/docker-4.png)
+![Docker](Images/docker-5.png)
+![Docker](Images/docker-6.png)
+![Docker](Images/docker-7.png)
+
 - **Cloudflared:** Install `cloudflared`, a command-line tool that enables a secure connection between Cloudflare and your local machine.
 - **Cribops CLI:** Download and install the Cribops CLI installer from the official documentation. This tool simplifies the entire N8N setup process.
 
