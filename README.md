@@ -16,6 +16,7 @@ This guide provides a straightforward, three-step process for installing a local
 
 ![Cloudflare](Images/cloudflare-1.png)
 ![Cloudflare](Images/cloudflare-2.png)
+![Cloudflare](Images/cloudflare-3.png)
 
 ### Step 2: Install Prerequisites
 
