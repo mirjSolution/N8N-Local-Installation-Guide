@@ -15,6 +15,7 @@ This guide provides a straightforward, three-step process for installing a local
 - **Pro-Tip:** Cloudflare is recommended for its simple, affordable domain registration.
 
 ![Cloudflare](Images/cloudflare-1.png)
+![Cloudflare](Images/cloudflare-2.png)
 
 ### Step 2: Install Prerequisites
 
