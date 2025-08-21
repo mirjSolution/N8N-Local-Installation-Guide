@@ -36,7 +36,7 @@ https://docs.docker.com/
 ![Docker](Images/docker-6.png)
 ![Docker](Images/docker-7.png)
 
-- **Cloudflared:** Install `cloudflared`, a command-line tool that enables a secure connection between Cloudflare and your local machine.
+- **Cloudflare:** Install `cloudflare`, a command-line tool that enables a secure connection between Cloudflare and your local machine.
 
 -Documentation
 
@@ -123,8 +123,6 @@ docker compose up -d
 - If you encounter an error with Cloudflare, you can restart the Docker containers.
 - Run `docker compose down` to stop the services.
 - Then, run `docker compose up -d` again to restart and ensure a clean installation.
-
-### Post-Installation
 
 ## ✅ Summary
 
