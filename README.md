@@ -87,30 +87,36 @@ This section provides the specific commands for a successful installation.
 
 Before you begin, ensure you have completed the following:
 
-- **Docker Desktop:**
-- **Cloudflared:**
-- **Cribops CLI:**
+- **Docker Desktop**
+- **Cloudflare**
+- **Cribops CLI**
 
 ### Installation Steps
 
 1.  Open your terminal and run the Cribops setup command. Replace `<your_tunnel_name>` with a unique name and `<your_domain.com>` with the domain you registered.
 
-    ```bash
-    cribops-cli setup --cloudflare-tunnel --tunnel-name <tunnel name> --tunnel-hostname <Your domain name>
-
-    ```
+```bash
+cribops-cli setup --cloudflare-tunnel --tunnel-name <tunnel name> --tunnel-hostname <Your domain name>
+```
 
 ![Cribops Setup](Images/cribops-setup1.png)
 
 2.  After the setup is complete, run the following command to finalize the installation and start all services.
 
-    ```bash
-    docker compose up -d
-    ```
+```bash
+docker compose up -d
+```
 
 ![Cribops Setup](Images/cribops-setup2.png)
 
 3. Next test and run N8N.
+
+![Test](Images/test-1.png)
+![Test](Images/test-2.png)
+![Test](Images/test-3.png)
+![Test](Images/test-4.png)
+![Test](Images/test-5.png)
+![Test](Images/test-6.png)
 
 ### Troubleshooting
 
